@@ -13,15 +13,15 @@ import Contact from './components/Contact';
 const Routes = () => (
   <BrowserRouter>
     <Switch>
-      <Route exact path="/" component={Intro} />
+      <Route exact path="/" component={Intro} bg="dark" />
       <>
         <Header />
         <Aside />
-        <Route path="/Home" component={Home} />
-        <Route path="/About" component={About} />
-        <Route path="/Projects" component={Projects} />
-        <Route path="/Blog" component={Blog} />
-        <Route path="/Contact" component={Contact} />
+        <Route path="/home" component={Home} />
+        <Route path="/about" component={About} />
+        <Route path="/projects" component={Projects} />
+        <Route path="/blog" component={Blog} />
+        <Route path="/contact" component={Contact} />
         <Footer />
       </>
     </Switch>
