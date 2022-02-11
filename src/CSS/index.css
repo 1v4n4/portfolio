@@ -7,7 +7,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #343a40;
+  background-color: black;
+  color: #f7f7f7;
 }
 
 code {
@@ -17,4 +18,12 @@ code {
 
 .fintro {
   font-family: "Press Start 2P", cursive;
+}
+
+.link-unstyled {
+  text-decoration: none;
+}
+
+.link-unstyled:hover {
+  text-decoration: none;
 }

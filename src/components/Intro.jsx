@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import '../CSS/intro.css';
 
 const Intro = () => (
-  <div>
+  <div className="intro-div">
     <Link to="/home" className="intro-link">
       <h1 className="glitch fintro text-light">
         <span aria-hidden="true">Hello visitor </span>

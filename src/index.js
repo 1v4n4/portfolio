@@ -7,7 +7,7 @@ import Routes from './Routes';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Routes className="bg-dark" />
+    <Routes />
   </React.StrictMode>,
   document.getElementById('root'),
 );
