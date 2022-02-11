@@ -6,9 +6,9 @@ const Intro = () => (
   <div className="intro-div">
     <Link to="/home" className="intro-link">
       <h1 className="glitch fintro text-light">
-        <span aria-hidden="true">Hello visitor </span>
-        Hello visitor
-        <span aria-hidden="true">Hello visitor </span>
+        <span aria-hidden="true">HELLO VISITOR</span>
+        HELLO VISITOR
+        <span aria-hidden="true">HELLO VISITOR</span>
       </h1>
     </Link>
   </div>

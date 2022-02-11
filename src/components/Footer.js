@@ -1,8 +1,10 @@
 import React from 'react';
 
 const Footer = () => (
-  <div>
-    <h1>Footer</h1>
-  </div>
+  <p className="text-secondary text-center fixed-bottom">
+    @ 2022
+    <a href="github.com/1v4n4" className="link-unstyled text-secondary mx-2" target="_blank">1v4n4</a>
+  </p>
+
 );
 export default Footer;
