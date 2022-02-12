@@ -8,7 +8,7 @@ import { motion } from 'framer-motion';
 const Header = () => (
   <div className="my-4">
     <Navbar collapseOnSelect expand="lg" variant="dark" className="mb-5 justify-content-between fintro text-light">
-      <Container className="justify-content-between">
+      <Container fluid className="justify-content-between px-5 mx-5">
         <Navbar.Brand>
           <Link
             to="/home"

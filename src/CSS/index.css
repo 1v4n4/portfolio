@@ -25,5 +25,5 @@ code {
 }
 
 .link-unstyled:hover {
-  text-decoration: none;
+  text-decoration: #f7f7f7;
 }
