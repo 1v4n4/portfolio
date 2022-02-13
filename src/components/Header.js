@@ -8,13 +8,13 @@ import { motion } from 'framer-motion';
 const Header = () => (
   <div className="my-4">
     <Navbar collapseOnSelect expand="lg" variant="dark" className="mb-5 justify-content-between fintro text-light">
-      <Container fluid className="justify-content-between px-5 mx-5">
+      <Container fluid className="justify-content-between px-sm-5 mx-md-5">
         <Navbar.Brand>
           <Link
             to="/home"
             className="link-unstyled text-light"
           >
-            <motion.h1
+            <motion.h2
               initial={{ y: -150 }}
               animate={{ y: 0 }}
               transition={{
@@ -22,7 +22,7 @@ const Header = () => (
               }}
             >
               1v4n4
-            </motion.h1>
+            </motion.h2>
           </Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />

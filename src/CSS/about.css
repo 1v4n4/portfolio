@@ -1,0 +1,57 @@
+.about {
+  position: absolute;
+  top: 20%;
+}
+
+.bio {
+  margin: 5% 10% 0 20%;
+  text-align: center;
+  width: 60%;
+  font-size: 0.7rem;
+}
+
+.me {
+  width: 40%;
+  display: block;
+  margin: auto;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
+
+.me:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+}
+
+@media (min-width: 768px) {
+  .me {
+    width: 30%;
+  }
+  .bio {
+    font-size: 0.8rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .about {
+    width: 50%;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin: 0 -25% 0 -25%;
+    justify-content: space-around;
+    gap: 5%;
+  }
+
+  .bio {
+    width: 60%;
+    margin: 0;
+    align-self: flex-end;
+  }
+
+  .me {
+    width: 40%;
+    margin: 0;
+    object-fit: cover;
+  }
+}
