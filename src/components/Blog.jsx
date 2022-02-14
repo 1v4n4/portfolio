@@ -6,7 +6,6 @@ const Blog = () => (
     <Helmet>
       <title>iv4n4 | Blog </title>
     </Helmet>
-    <h1>Blog</h1>
   </div>
 );
 export default Blog;

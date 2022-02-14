@@ -1,5 +1,6 @@
 .aside {
-  margin-top: 12%;
+  position: absolute;
+  top: 37%;
 }
 
 .icons {

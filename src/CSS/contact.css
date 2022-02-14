@@ -1,0 +1,18 @@
+.contact-div {
+  margin-top: 10%;
+}
+
+#message:hover {
+  background-color: yellow;
+  border: 1px solid yellow;
+}
+@media (max-width: 768px) {
+  #name,
+  #email {
+    width: 100%;
+  }
+
+  .contact-txt {
+    font-size: 0.9rem;
+  }
+}

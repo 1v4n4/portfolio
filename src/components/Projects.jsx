@@ -1,8 +1,11 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 
 const Projects = () => (
   <div>
-    <h1>Projects</h1>
+    <Helmet>
+      <title>iv4n4 | Intro</title>
+    </Helmet>
   </div>
 );
 export default Projects;
