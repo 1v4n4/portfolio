@@ -8,7 +8,7 @@ const About = () => (
     <Helmet>
       <title>iv4n4 | About </title>
     </Helmet>
-    <img src={me} className="me" alt="portrait" />
+    <img src={me} className="nocolor me" alt="portrait" />
     <p className="bio">
       I am a software development enthusiast, an open-source contributor, and a boot camp graduate,
       with an addiction to problem-solving activities.

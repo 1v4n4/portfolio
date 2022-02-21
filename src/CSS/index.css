@@ -27,3 +27,17 @@ body {
 .yellowspan {
   color: yellow;
 }
+
+.nocolor {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
+
+.nocolor:hover {
+  filter: none;
+  -webkit-filter: grayscale(0%);
+}
+
+/* .fgrey {
+  color: #6c757d;
+} */

@@ -14,13 +14,6 @@
   width: 40%;
   display: block;
   margin: auto;
-  filter: grayscale(100%);
-  -webkit-filter: grayscale(100%);
-}
-
-.me:hover {
-  filter: none;
-  -webkit-filter: grayscale(0);
 }
 
 @media (min-width: 768px) {
