@@ -12,7 +12,7 @@ const Contact = () => (
       <p className="contact-txt">
         If you have a project you are interested in developing, or you are open to collaboration.
         Even if you just have a  suggestion or a question...
-        <span className="yellowspan"> Reach out!</span>
+        <span className="fyellow"> Reach out!</span>
       </p>
       <ContactForm />
     </div>

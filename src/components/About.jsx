@@ -19,11 +19,11 @@ const About = () => (
       I have college degrees in economics and computer science.
       <br />
       Some (fun) facts about me can be found in this
-      <a href="https://ivanana.dreamwidth.org/410.html" className="link-unstyled" target="_blank" rel="noreferrer"> blog post</a>
+      <a href="https://ivanana.dreamwidth.org/410.html" className="link-unstyled fyellow" target="_blank" rel="noreferrer"> blog post</a>
       .
       <br />
       More info about my recent work is
-      <a href="https://github.com/WikiEducationFoundation/WikiEduDashboard/pulls?q=is%3Apr+author%3A1v4n4" className="link-unstyled" target="_blank" rel="noreferrer"> here</a>
+      <a href="https://github.com/WikiEducationFoundation/WikiEduDashboard/pulls?q=is%3Apr+author%3A1v4n4" className="link-unstyled fyellow" target="_blank" rel="noreferrer"> here</a>
       .
 
     </p>
