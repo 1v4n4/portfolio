@@ -14,14 +14,14 @@ const Home = () => (
       <div className="skills">
         <p className="skillp text-center ">
           <span className="font-weight-bold">LANGUAGES: </span>
-          Ruby,  JavaScrypt, HTML,  CSS , MySQL
+          Ruby, JavaScrypt, HTML, CSS, MySQL
         </p>
         <p className="skillp">
           <span className="font-weight-bold">FRAMEWORKS: </span>
           Ruby on Rails, React, Redux, Bootstrap, Sidekiq, Rspec, Capybara
         </p>
         <p className="skillp">
-          <span className="font-weight-bold">
+          <span className="font-weight-bold mr-2">
             TOOLS & METHODS:
           </span>
           Github, Heroku, Netlify, Responsive design, TDD, Chrome Dev
