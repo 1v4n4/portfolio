@@ -34,7 +34,7 @@ const ContactForm = () => {
       <button type="submit" className="btn btn-outline-light mb-4" value="Send">Submit</button>
       <button type="submit" className="btn btn-outline-light mb-4" value="Reset">Reset</button>
     </form>
-  );S
+  );
 };
 
 export default ContactForm;

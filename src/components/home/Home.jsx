@@ -1,7 +1,9 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
-import pic from '../assets/pic.jpg';
-import '../CSS/home.css';
+import pic from '../../assets/images/pic.jpg';
+import '../../CSS/home.css';
+import Skill from './Skill';
+import { skillsList } from '../../assets/data';
 
 const Home = () => (
   <div className="home">
@@ -12,24 +14,13 @@ const Home = () => (
       <h1 className="name text-center text-dark">Ivana Novaković-Leković</h1>
       <h3 className="dev text-center text-dark">Full-stack developer</h3>
       <div className="skills">
-        <p className="skillp text-center ">
-          <span className="font-weight-bold">LANGUAGES: </span>
-          Ruby, JavaScrypt, HTML, CSS, MySQL
-        </p>
-        <p className="skillp">
-          <span className="font-weight-bold">FRAMEWORKS: </span>
-          Ruby on Rails, React, Redux, Bootstrap, Sidekiq, Rspec, Capybara
-        </p>
-        <p className="skillp">
-          <span className="font-weight-bold mr-2">
-            TOOLS & METHODS:
-          </span>
-          Github, Heroku, Netlify, Responsive design, TDD, Chrome Dev
-        </p>
-        <p className="skillp">
-          <span className="font-weight-bold">SKILLS: </span>
-          Pair-Programming, Teamwork, Mentoring
-        </p>
+        {skillsList.map((skill) => (
+          <Skill
+            tag={skill[0]}
+            list={skill[1]}
+            key={skill[0]}
+          />
+        ))}
       </div>
     </div>
     <div className="img-txt">

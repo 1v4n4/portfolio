@@ -1,14 +1,14 @@
 import React, { Fragment } from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Intro from './components/Intro';
-import Home from './components/Home';
+import Home from './components/home/Home';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import Projects from './components/Projects';
+import Projects from './components/projects/Projects';
 import About from './components/About';
 import Blog from './components/Blog';
 import Aside from './components/Aside';
-import Contact from './components/Contact';
+import Contact from './components/contact/Contact';
 
 const Routes = () => (
   <BrowserRouter>

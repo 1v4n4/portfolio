@@ -1,7 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import ContactForm from './ContactForm';
-import '../CSS/contact.css';
+import '../../CSS/contact.css';
 
 const Contact = () => (
   <div>

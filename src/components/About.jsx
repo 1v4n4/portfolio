@@ -1,7 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import '../CSS/about.css';
-import me from '../assets/me.jpg';
+import me from '../assets/images/me.jpg';
 
 const About = () => (
   <div className="about d-lg-flex">
