@@ -28,12 +28,12 @@ body {
   color: yellow;
 }
 
-.nocolor {
+img {
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
 }
 
-.nocolor:hover {
+img:hover {
   filter: none;
   -webkit-filter: grayscale(0%);
 }

@@ -24,7 +24,7 @@ const Home = () => (
       </div>
     </div>
     <div className="img-txt">
-      <img src={pic} className="pic nocolor" alt="portrait" />
+      <img src={pic} className="pic" alt="portrait" />
       <p className="mainp text-center fyellow">
         Need something web-related? The chances are that I can help you!
         Take a look at some of my projects, work experience, and bio.
