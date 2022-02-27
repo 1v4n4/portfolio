@@ -1,0 +1,53 @@
+.main-project {
+  width: 90%;
+  margin: 5% auto 0 auto;
+}
+
+.carousel-img {
+  height: 40vh;
+  object-fit: cover;
+}
+
+.project-title {
+  font-size: 1.19rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 2% 0;
+}
+
+.languages {
+  text-align: center;
+}
+
+.summary {
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+@media screen and (min-width: 576px) {
+  .carousel-img {
+    height: 50vh;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .main-project {
+    width: 95%;
+    gap: 1%;
+  }
+
+  .carousel-img {
+    height: 65vh;
+  }
+
+  .project-title {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  .main-project {
+    width: 90%;
+    gap: 2%;
+  }
+}
