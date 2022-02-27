@@ -46,3 +46,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ## Acknowledgments
 
 Intro page glitching animation is based on Kevin Powell's [solution](https://codepen.io/kevinpowell/pen/YzqerQm).
+Blog page 'work in progres' animation is based on Bence Szabo's [idea](https://codepen.io/finnhvman/pen/BGmygj).
