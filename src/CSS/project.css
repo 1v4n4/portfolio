@@ -1,3 +1,9 @@
+@media screen and (max-width: 992px) {
+  .none {
+    display: none;
+  }
+}
+
 .main-project {
   width: 90%;
   margin: 5% auto 0 auto;
@@ -39,20 +45,31 @@
   .main-project {
     width: 95%;
     gap: 1%;
+    margin: 0 auto;
   }
 
   .carousel-img {
-    height: 65vh;
+    height: auto;
   }
 
   .project-title {
     font-size: 1.2rem;
   }
+
+  #projects-container {
+    width: 97%;
+    margin: 0 auto;
+  }
+
+  .none {
+    text-align: center;
+    font-size: 1.2rem;
+  }
 }
 
-@media screen and (min-width: 1201px) {
+/* @media screen and (min-width: 1201px) {
   .main-project {
     width: 90%;
     gap: 2%;
   }
-}
+} */

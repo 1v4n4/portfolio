@@ -24,10 +24,16 @@ const ProjectModal = ({ project }) => {
           <Modal.Title className="m-3">{project[0]}</Modal.Title>
         </Modal.Header>
         <Modal.Body className="m-3">
+          <p className="text-center">{project[3]}</p>
           <img src={project[4][1]} alt="project" className="img-fluid mt-3" />
-          <p className="my-4">{project[5]}</p>
-          <p className="">{project[3]}</p>
-          <a href={project[6]} className="link-unstyled" target="_blank" rel="noopener noreferrer"> More on GitHub </a>
+          {project[5].map((line) => (
+            <p className="my-4" key={line}>{line}</p>))}
+          {project[6].map((link) => (
+            <>
+              <a href={link[1]} className="link-unstyled" target="_blank" rel="noopener noreferrer" key={link[0]}>{link[0]}</a>
+              <br />
+            </>
+          ))}
         </Modal.Body>
         <Modal.Footer className="m-3">
           <button type="button" className="btn btn-outline-light" onClick={handleClose}>Close</button>

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
-import { mainProject } from '../../assets/data';
+import { mainProject, projects } from '../../assets/data';
 import Project from './Project';
 import '../../CSS/project.css';
 
@@ -12,8 +12,17 @@ const Projects = () => (
     <div className="main-project">
       <Project project={mainProject} />
     </div>
-    <div className="projects-container">
-      <p>div for projects</p>
+    <div className="none my-5">
+      <a href="#projects-container" className="link-unstyled fintro">MORE PROJECTS</a>
+    </div>
+    <div id="projects-container" className="pt-5">
+      {projects.map((project) => (
+        <>
+          <Project key={project[0]} project={project} />
+          <br />
+          <br />
+        </>
+      ))}
     </div>
   </div>
 );

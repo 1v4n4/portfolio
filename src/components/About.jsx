@@ -22,7 +22,7 @@ const About = () => (
       Before my full-time commitment to web development, I was a journalist and an
       editor in the daily newspaper for almost two decades.
       Along with various programming educations,
-      I have college degrees in economics and computer science.
+      I have college degrees in Economics and Computer Science.
       <br />
       Some (fun) facts about me can be found in this
       <a href="https://ivanana.dreamwidth.org/410.html" className="link-unstyled fyellow" target="_blank" rel="noreferrer"> blog post</a>

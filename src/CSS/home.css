@@ -76,7 +76,7 @@
   }
 
   .mainp {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     margin-top: 0;
     width: 40%;
     align-self: center;
@@ -103,5 +103,11 @@
 
   .skills {
     padding: 1rem 0 1rem 0;
+  }
+}
+
+@media (min-width: 1182px) {
+  .mainp {
+    font-size: 0.9rem;
   }
 }
