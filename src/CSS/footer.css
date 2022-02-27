@@ -6,7 +6,7 @@
   margin-top: 15%;
 }
 
-@media (min-width: 993px) {
+@media (min-width: 992px) {
   .footer {
     position: fixed;
     height: 100px;

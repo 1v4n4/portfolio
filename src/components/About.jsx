@@ -12,7 +12,13 @@ const About = () => (
     <p className="bio">
       I am a software development enthusiast, an open-source contributor, and a boot camp graduate,
       with an addiction to problem-solving activities.
-      For me, coding is work, but also a passion.
+      <br />
+      For me, coding is work, but also a passion. As a result, I&apos;m currently
+      {' '}
+      <a href="https://github.com/gayanvoice/top-github-users/blob/main/markdown/public_contributions/montenegro.md" className="link-unstyled fyellow" target="_blank" rel="noreferrer">the most active GitHub user</a>
+      {' '}
+      in Montenegro (by public contributions).
+      <br />
       Before my full-time commitment to web development, I was a journalist and an
       editor in the daily newspaper for almost two decades.
       Along with various programming educations,
