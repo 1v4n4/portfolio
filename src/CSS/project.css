@@ -19,7 +19,7 @@
   background-image: none;
 }
 
-.carousel-control-next-icon:after {
+.carousel-control-next-icon::after {
   content: ">";
   font-size: 75px;
   font-weight: bolder;

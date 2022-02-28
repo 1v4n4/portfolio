@@ -127,6 +127,7 @@
 .blog-txt {
   font-size: 2rem;
 }
+
 @media screen and (min-width: 576px) {
   .blog-div {
     font-size: 3rem;
