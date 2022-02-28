@@ -10,6 +10,12 @@ import fueur3 from './images/fueur3.png';
 import do1 from './images/do1.png';
 import do2 from './images/do2.png';
 import do3 from './images/do3.png';
+import doit1 from './images/doit1.png';
+import doit2 from './images/doit2.png';
+import doit3 from './images/doit3.png';
+import quark1 from './images/quark1.png';
+import quark2 from './images/quark2.png';
+import quark3 from './images/quark3.png';
 
 const skillsList = [
   ['LANGUAGES: ', 'Ruby, JavaScrypt, HTML, CSS, MySQL'],
@@ -51,7 +57,7 @@ const projects = [
       'The player\'s name can be submitted when the game is over. The best ten results are displayed in a Hall of Fame. ',
       'Music and sounds can be on or off and preference data is kept in local storage. ',
       'The game is named after the song \'Fueuer frei!\'(Fire at will, translated) by German band Rammstein. The same song is used for the soundtrack and the intro image is a picture from the band\'s concert.'],
-    [['Try shooting some spaceships! ', 'https://1v4n4.github.io/fueur/'], ['\'Fueur frei!\' GitHub repo', 'https://github.com/1v4n4/fueur-frei']]],
+    [['Try shooting some spaceships! ', 'https://1v4n4.github.io/fueur-frei/'], ['\'Fueur frei!\' GitHub repo', 'https://github.com/1v4n4/fueur-frei']]],
   ['DO - Music news website',
     'App is a news website with a homepage for highlighted articles, five category pages, and a few others. If logged in, users can vote and create/edit/delete articles. ',
     'Ruby on Rails | Bootstrap',
@@ -64,6 +70,30 @@ const projects = [
       'Authors can edit and delete their articles, but not other people\'s. ',
       'The design of this project is based on an idea by Nelson Sakwa. Sample articles and pictures are taken from websites NME, Kerrang!, Guardian, Rolling Stone, Spin, and Loudwire. '],
     [['DO', 'https://glacial-spire-65889.herokuapp.com/'], ['GitHub repo', 'https://github.com/1v4n4/music-news-website']]],
+  ['Do it!',
+    'Do it is a web application that helps users to organize their lives, by creating, editing, deleting, prioritizing tasks and projects.',
+    'JavaScript | Bootstrap',
+    'JAVASCRIPT | BOOTSTRAP | CSS | JEST',
+    [`${doit3}`, `${doit1}`, `${doit2}`],
+    ['Do it is a web application that helps users to organize their lives, by creating, editing, deleting, prioritizing tasks and projects. ',
+      'Users can create (edit and delete) project with titles and optional descriptions and an unlimited amount of to-dos. ',
+      'Tasks have priority and status tags, as well as deadlines. Status can be changed in the task\'s table, the rest of its content can be edited or whole tasks can be deleted. ',
+      'Users can add comments if they want. Users can see today\'s pending tasks in a separate section. ',
+      'When completed, the task is removed from the list. ',
+      'This whole project is made using vanilla JavaScript.'],
+    [['Do it!', 'https://1v4n4.github.io/Do-It/'], ['GitHub repo', 'https://github.com/1v4n4/Do-It']]],
+  ['Quark\'s bar',
+    'This three pages website is completely made by JavaScript. There is only one HTML element in it - an empty div!',
+    'JavaScript | Bootstrap',
+    'JAVASCRIPT | BOOTSTRAP | CSS',
+    [`${quark1}`, `${quark2}`, `${quark3}`],
+    ['Quark\'s bar is a simple restaurant website generated only by JavaScript\'s DOM manipulation. ',
+      'It has three pages, Home, Menu (with a list of dishes), and About, but almost no HTML - there is only one empty \'div\'. ',
+      'The design of the restaurant  app is responsive for all screen sizes. ',
+      'The whole project is made using vanilla JavaScript, Bootstrap and a little bit of CSS.'],
+    [['Quark\'s bar', 'https://1v4n4.github.io/Quark-s-bar/'], ['GitHub repo', 'https://github.com/1v4n4/Quark-s-bar'],
+    ],
+  ],
 ];
 
 export {

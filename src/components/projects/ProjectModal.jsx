@@ -12,7 +12,7 @@ const ProjectModal = ({ project }) => {
   return (
     <>
       <div className="col-md-12 text-center text-lg-left">
-        <button type="button" className="btn btn-outline-light my-xl-4" onClick={handleShow}>See more</button>
+        <button type="button" className="btn btn-outline-light my-xl-4" onClick={handleShow}>More info</button>
       </div>
       <Modal
         size="lg"
@@ -25,7 +25,7 @@ const ProjectModal = ({ project }) => {
         </Modal.Header>
         <Modal.Body className="m-3">
           <p className="text-center">{project[3]}</p>
-          <img src={project[4][1]} alt="project" className="img-fluid mt-3" />
+          <img src={project[4][0]} alt="project" className="img-fluid mt-3" />
           {project[5].map((line) => (
             <p className="my-4" key={line}>{line}</p>))}
           {project[6].map((link) => (

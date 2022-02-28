@@ -13,7 +13,7 @@ const Projects = () => (
       <Project project={mainProject} />
     </div>
     <div className="none my-5">
-      <a href="#projects-container" className="link-unstyled fintro">MORE PROJECTS</a>
+      <a href="#projects-container" className="link-unstyled fintro">OTHER PROJECTS</a>
     </div>
     <div id="projects-container" className="pt-5">
       {projects.map((project) => (
