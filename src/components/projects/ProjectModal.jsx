@@ -24,7 +24,7 @@ const ProjectModal = ({ project }) => {
           <Modal.Title className="m-3">{project[0]}</Modal.Title>
         </Modal.Header>
         <Modal.Body className="m-3">
-          <p className="text-center">{project[3]}</p>
+          <p className="text-center fyellow">{project[3]}</p>
           <img src={project[4][0]} alt="project" className="img-fluid mt-3" />
           {project[5].map((line) => (
             <p className="my-4" key={line}>{line}</p>))}
