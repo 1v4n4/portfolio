@@ -1,0 +1,17 @@
+.footer-projects {
+  display: none;
+}
+
+.footer {
+  margin-top: 15%;
+}
+
+@media (min-width: 992px) {
+  .footer {
+    position: fixed;
+    height: 100px;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+  }
+}
