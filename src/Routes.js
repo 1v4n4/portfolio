@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Intro from './components/Intro';
-import Home from './components/home/Home';
+import LazyHome from './components/home/LazyHome';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Projects from './components/projects/Projects';
@@ -17,7 +17,7 @@ const Routes = () => (
       <>
         <Header />
         <Aside />
-        <Route path="/home" component={Home} />
+        <Route path="/home" component={LazyHome} />
         <Route path="/about" component={About} />
         <Route path="/projects" component={Projects} />
         <Route path="/blog" component={Blog} />
