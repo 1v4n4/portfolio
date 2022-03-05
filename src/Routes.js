@@ -4,7 +4,7 @@ import Intro from './components/Intro';
 import LazyHome from './components/home/LazyHome';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import Projects from './components/projects/Projects';
+import LazyProjects from './components/projects/LazyProjects';
 import About from './components/About';
 import Blog from './components/Blog';
 import Aside from './components/Aside';
@@ -19,7 +19,7 @@ const Routes = () => (
         <Aside />
         <Route path="/home" component={LazyHome} />
         <Route path="/about" component={About} />
-        <Route path="/projects" component={Projects} />
+        <Route path="/projects" component={LazyProjects} />
         <Route path="/blog" component={Blog} />
         <Route path="/contact" component={Contact} />
         <Footer />
