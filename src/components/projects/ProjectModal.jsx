@@ -44,6 +44,7 @@ const ProjectModal = ({ project }) => {
 };
 
 ProjectModal.propTypes = {
+  // eslint-disable-next-line react/forbid-prop-types
   project: PropTypes.arrayOf(PropTypes.any).isRequired,
 };
 export default ProjectModal;

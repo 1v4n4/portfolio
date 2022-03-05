@@ -18,9 +18,9 @@ import quark2 from './images/quark2.png';
 import quark3 from './images/quark3.png';
 
 const skillsList = [
-  ['LANGUAGES: ', 'Ruby, JavaScrypt, HTML, CSS, MySQL'],
+  ['LANGUAGES: ', 'Ruby, JavaScript, HTML, CSS, MySQL'],
   ['FRAMEWORKS: ', 'Ruby on Rails, React, Redux, Bootstrap, Sidekiq, Rspec, Capybara'],
-  ['TOOLS & METHODS: ', 'Github, Heroku, Netlify, Responsive design, TDD, Chrome Dev'],
+  ['TOOLS & METHODS: ', 'GitHub, Heroku, Netlify, Responsive design, TDD, Chrome Dev'],
   ['SKILLS: ', 'Pair-Programming, Problem-solving, Teamwork, Mentoring']];
 
 const mainProject = ['Improving Wikidata support on Programs & Events (WikiEdu) Dashboard',
@@ -32,7 +32,7 @@ const mainProject = ['Improving Wikidata support on Programs & Events (WikiEdu) 
     'It supports Wiki education assignments and editing projects, provides data and course management features for groups of editors(instructors, students...) and it has two productions (Wiki Education Dashboard and Programs & Events Dashboard). ',
     'It was customized mainly for Wikipedia\'s articles, so I was making Wikidata specialized features. ',
     'I added Wikidata terminology to an interface of the Dashboard and upgraded the process of monitoring changes by generating and displaying Wikidata statistics. ',
-    'This project was a part of my Outreachy open - source internship.'],
+    'This project was a part of my Outreachy open-source internship.'],
   [['Wiki Education Dashboard', 'https://dashboard.wikiedu.org/'], ['Programs & Events Dashboard', 'https://outreachdashboard.wmflabs.org/'], ['GitHub repo', 'https://github.com/WikiEducationFoundation/WikiEduDashboard'], ['My work', 'https://cutt.ly/mPSF8Gc']]];
 
 const projects = [
@@ -47,7 +47,7 @@ const projects = [
       'This project includes a React-Redux frontend deployed on GitHub pages and a backend, a Ruby on Rails API deployed on Heroku.'],
     [['Calbeach', 'https://1v4n4.github.io/beach/'], ['Calbeach API', 'https://calbeach.herokuapp.com/'], ['Frontend GitHub repo', 'https://github.com/1v4n4/beach'], ['Backend GitHub repo', 'https://github.com/1v4n4/back']]],
   ['Retro shooter game',
-    '"Fueur frei!" is simple platform space battle with attractive design and awesome music. The aim is to destroy as many enemies as possible',
+    '"Fueur frei!" is a simple platform space battle with attractive design and awesome music. The aim is to destroy as many enemies as possible',
     'JavaScript | Phaser',
     'JAVASCRIPT | PHASER | JEST | CSS',
     [`${fueur1}`, `${fueur2}`, `${fueur3}`],
@@ -89,7 +89,7 @@ const projects = [
     [`${quark1}`, `${quark2}`, `${quark3}`],
     ['Quark\'s bar is a simple restaurant website generated only by JavaScript\'s DOM manipulation. ',
       'It has three pages, Home, Menu (with a list of dishes), and About, but almost no HTML - there is only one empty \'div\'. ',
-      'The design of the restaurant  app is responsive for all screen sizes. ',
+      'The design of the restaurant app is responsive for all screen sizes. ',
       'The whole project is made using vanilla JavaScript, Bootstrap and a little bit of CSS.'],
     [['Quark\'s bar', 'https://1v4n4.github.io/Quark-s-bar/'], ['GitHub repo', 'https://github.com/1v4n4/Quark-s-bar'],
     ],

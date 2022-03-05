@@ -28,6 +28,7 @@ const ProjectCarousel = ({ project }) => (
   </Carousel>
 );
 ProjectCarousel.propTypes = {
+  // eslint-disable-next-line react/forbid-prop-types
   project: PropTypes.arrayOf(PropTypes.any).isRequired,
 };
 export default ProjectCarousel;

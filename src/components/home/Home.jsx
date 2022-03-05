@@ -29,7 +29,7 @@ const Home = () => (
       <p className="mainp text-center">
         Need something web-related? The chances are that I can help you!
         Take a look at some of my projects, work experience, and bio.
-        If you like what you see, reach out - we could make awesome stuff together.
+        If you like what you see, reach out - we could make awesome things together.
         {' '}
         <br />
         <br />
