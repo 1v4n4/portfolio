@@ -5,7 +5,7 @@ import ProjectCarousel from './ProjectCarousel';
 import ProjectTxt from './ProjectTxt';
 
 const Project = ({ project }) => (
-  <div className="project d-lg-flex  align-items-center my-3" key={project[0]}>
+  <div className="project d-lg-flex  align-items-center my-3">
     <ProjectCarousel
       project={project}
     />

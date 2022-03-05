@@ -29,10 +29,10 @@ const ProjectModal = ({ project }) => {
           {project[5].map((line) => (
             <p className="my-4" key={line}>{line}</p>))}
           {project[6].map((link) => (
-            <>
-              <a href={link[1]} className="link-unstyled" target="_blank" rel="noopener noreferrer" key={link[0]}>{link[0]}</a>
+            <div key={link[1]}>
+              <a href={link[1]} className="link-unstyled" target="_blank" rel="noopener noreferrer">{link[0]}</a>
               <br />
-            </>
+            </div>
           ))}
         </Modal.Body>
         <Modal.Footer className="m-3">
