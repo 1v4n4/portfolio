@@ -18,7 +18,7 @@ const Header = () => (
               initial={{ y: -150 }}
               animate={{ y: 0 }}
               transition={{
-                delay: 0.3, duration: 0.5, stiffness: 90, type: 'spring',
+                delay: 2, duration: 0.5, stiffness: 90, type: 'spring',
               }}
             >
               1v4n4

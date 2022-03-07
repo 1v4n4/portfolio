@@ -9,7 +9,7 @@ const Aside = () => (
     initial={{ x: -40 }}
     animate={{ x: 0 }}
     transition={{
-      delay: 2, duration: 5, type: 'tween', opacity: 1,
+      delay: 3, duration: 5, type: 'tween', opacity: 1,
     }}
   >
     <a href="https://github.com/1v4n4" className="link-unstyled text-secondary" target="_blank" rel="noreferrer">

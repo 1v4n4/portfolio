@@ -17,6 +17,7 @@ const ProjectTxt = ({ project }) => (
 );
 
 ProjectTxt.propTypes = {
+  // eslint-disable-next-line react/forbid-prop-types
   project: PropTypes.arrayOf(PropTypes.any).isRequired,
 };
 
