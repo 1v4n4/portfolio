@@ -6,6 +6,7 @@ const Intro = () => {
   useEffect(() => {
     document.title = 'iv4n4 | Intro';
   }, []);
+  console.log('referrer', document.referrer);
   return (
     <div className="intro-div">
       <Link to="/home" className="intro-link">
