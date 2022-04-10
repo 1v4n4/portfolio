@@ -1,5 +1,7 @@
-import React, { useRef } from 'react';
+import React, { useRef, useEffect } from 'react';
 import emailjs from '@emailjs/browser';
+import { getLocation } from '../../helper';
+// import { getLocation } from '../../helper';
 
 const ContactForm = () => {
   const form = useRef();
@@ -15,6 +17,9 @@ const ContactForm = () => {
       });
     e.target.reset();
   };
+  useEffect(() => {
+    getLocation();
+  }, []);
 
   return (
 
@@ -24,8 +29,16 @@ const ContactForm = () => {
         <input type="name" id="email" name="email" placeholder="your name" />
       </div>
       <div className="my-4">
-        <label htmlFor="email" className="form-label">Email address</label><br />
+        <label htmlFor="email" className="form-label">Email</label><br />
         <input type="email" id="email" name="email" placeholder="name@example.com" required />
+      </div>
+      <div className="my-4">
+        <label htmlFor="location" className="form-label">Location</label><br />
+          <select name="location" id="location">
+            <option id="default-location" />
+            <option value="Fund"/>
+            <option value="Insta"/>
+          </select>
       </div>
       <div className="mb-3">
         <label htmlFor="message" className="form-label">Place for your message</label><br />
