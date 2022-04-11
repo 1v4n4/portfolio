@@ -1,11 +1,16 @@
 import React, { useRef, useEffect } from 'react';
 import emailjs from '@emailjs/browser';
-import { getLocation } from '../../helper';
-// import { getLocation } from '../../helper';
+import { getLocation } from '../../API';
+import FetchCountries from './FetchCountries';
 
 const ContactForm = () => {
   const form = useRef();
-/* eslint-disable */
+
+  useEffect(() => {
+    getLocation();
+  }, []);
+
+  /* eslint-disable */
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -17,12 +22,8 @@ const ContactForm = () => {
       });
     e.target.reset();
   };
-  useEffect(() => {
-    getLocation();
-  }, []);
 
   return (
-
     <form ref={form} onSubmit={sendEmail} className="form">
       <div className="my-4">
         <label htmlFor="name" className="form-label">Name</label><br />
@@ -35,9 +36,8 @@ const ContactForm = () => {
       <div className="my-4">
         <label htmlFor="location" className="form-label">Location</label><br />
           <select name="location" id="location">
-            <option id="default-location" />
-            <option value="Fund"/>
-            <option value="Insta"/>
+          <option id="default-location" />
+          <FetchCountries />
           </select>
       </div>
       <div className="mb-3">

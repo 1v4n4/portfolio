@@ -2,7 +2,7 @@ const reverseLocationAPI = async (latitude, longitude) => {
   try {
     const response = await fetch(`https://api.bigdatacloud.net/data/reverse-geocode?latitude=${latitude}&longitude=${longitude}&localityLanguage=en&key=ae4f25c3e473421ea09e1ae6c1b2dcd3`);
     const data = await response.json();
-    return (data.countryName);
+    return data.countryName;
   } catch (error) {
     return error.message;
   }
