@@ -7,9 +7,14 @@
   border: 1px solid yellow;
 }
 
+select {
+  padding: 0.3rem 0.5rem;
+}
+
 @media (max-width: 768px) {
   #name,
-  #email {
+  #email,
+  #fake-input, {
     width: 100%;
   }
 
