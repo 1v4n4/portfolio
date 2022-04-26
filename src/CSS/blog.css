@@ -4,7 +4,6 @@
   margin: 32vh 5% 0 5%;
   color: yellow;
   font-family: "Press Start 2P", cursive;
-  font-size: 2rem;
   font-weight: 700;
   letter-spacing: -0.02em;
   line-height: 1.03em;
@@ -137,17 +136,17 @@
 }
 
 .blog-txt {
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
 @media screen and (min-width: 576px) {
   .blog-div {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 }
 
 @media screen and (min-width: 992px) {
   .blog-div {
-    font-size: 5rem;
+    font-size: 3.5rem;
   }
 }

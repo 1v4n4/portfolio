@@ -7,13 +7,29 @@
   border: 1px solid yellow;
 }
 
+select {
+  padding: 0.3rem 0.5rem;
+}
+
 @media (max-width: 768px) {
   #name,
   #email {
     width: 100%;
   }
 
+  #location {
+   font-size: 0.65rem;
+   padding-left: 0;
+  }
+
   .contact-txt {
     font-size: 0.9rem;
   }
+}
+
+@media (max-width: 992px) {
+#location {
+  width: 100%;
+  font-size: 1rem;
+}
 }
