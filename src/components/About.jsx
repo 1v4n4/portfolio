@@ -16,7 +16,7 @@ const About = () => {
         <br />
         For me, coding is work, but also a passion. As a result, I&apos;m currently
         {' '}
-        <a href="https://github.com/gayanvoice/top-github-users/blob/main/markdown/public_contributions/montenegro.md" className="link-unstyled fyellow" target="_blank" rel="noreferrer">the most active GitHub user</a>
+        <a href="https://github.com/gayanvoice/top-github-users/blob/main/markdown/public_contributions/montenegro.md" className="link-unstyled fyellow" target="_blank" rel="noreferrer">one of the most active GitHub users</a>
         {' '}
         in Montenegro (by public contributions).
         <br />
