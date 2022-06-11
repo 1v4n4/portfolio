@@ -11,6 +11,34 @@ select {
   padding: 0.3rem 0.5rem;
 }
 
+/* toast overriding */
+
+.Toastify__toast-container {
+  margin-top: 4rem;
+}
+
+.Toastify__toast-body {
+  color: yellow !important;
+  text-align: center !important;
+}
+
+.Toastify__toast-icon {
+  display: none !important;
+}
+
+.Toastify__progress-bar {
+  background: #6c757d  !important;
+}
+
+.Toastify__close-button > svg {
+
+  color: yellow;
+}
+.Toastify__close-button:hover, .Toastify__close-button:focus {
+
+  color: yellow;
+}
+
 @media (max-width: 768px) {
   #name,
   #email {
@@ -32,4 +60,11 @@ select {
   width: 100%;
   font-size: 1rem;
 }
+
+@media (min-width: 7682px) {
+  .Toastify__toast-container {
+    margin-top: 5rem;
+  }
+}
+
 }
