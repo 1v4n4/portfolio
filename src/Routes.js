@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { ToastContainer } from 'react-toastify';
 import Intro from './components/Intro';
 import Home from './components/home/Home';
 import Header from './components/Header';
@@ -9,6 +10,7 @@ import About from './components/About';
 import Blog from './components/Blog';
 import Aside from './components/Aside';
 import Contact from './components/contact/Contact';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Routes = () => (
   <BrowserRouter>
@@ -16,6 +18,7 @@ const Routes = () => (
       <Route exact path="/" component={Intro} bg="dark" />
       <>
         <Header />
+        <ToastContainer autoClose={5000} theme="dark" />
         <Aside />
         <Route path="/home" component={Home} />
         <Route path="/about" component={About} />

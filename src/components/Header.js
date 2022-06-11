@@ -4,10 +4,13 @@ import {
   Navbar, Nav, Container,
 } from 'react-bootstrap';
 import { motion } from 'framer-motion';
+import isWin from '../helpers';
+
+const mBottom = isWin ? 'mb-3' : 'mb-5';
 
 const Header = () => (
   <div className="my-4">
-    <Navbar collapseOnSelect expand="lg" variant="dark" className="mb-5 justify-content-between fintro text-light">
+    <Navbar collapseOnSelect expand="lg" variant="dark" className={`${mBottom} justify-content-between fintro text-light`}>
       <Container fluid className="justify-content-between px-sm-5 mx-md-5">
         <Navbar.Brand>
           <Link

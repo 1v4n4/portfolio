@@ -1,7 +1,9 @@
 import React, { useRef, useEffect } from 'react';
 import emailjs from '@emailjs/browser';
+import { toast } from 'react-toastify';
 import { getLocation } from '../../API';
 import FetchCountries from './FetchCountries';
+import '../../CSS/contact.css';
 
 const ContactForm = () => {
   const form = useRef();
@@ -16,9 +18,11 @@ const ContactForm = () => {
 
     emailjs.sendForm('service_z0lk2sn', 'template_qeqq9zl', e.target, 'user_sIty8Dbq0OoIJPWAnYM4L')
       .then((result) => {
-        console.log(result.text);
+        if (result.text === 'OK') {
+          toast.info('Mail sent. Awesome!', { position: toast.POSITION.TOP_CENTER });
+        }
       }, (error) => {
-        console.log(error.text);
+        toast.info('Awww, message not sent. Try again, please.', { position: toast.POSITION.TOP_CENTER });
       });
     e.target.reset();
   };
