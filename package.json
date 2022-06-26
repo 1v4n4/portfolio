@@ -5,7 +5,8 @@
   "homepage": "https://1v4n4.me",
   "private": true,
   "engines": {
-    "node": "16.x"
+    "node": "16.13.2",
+    "npm": "8.13.1"
   },
   "dependencies": {
     "@cyriacbr/react-split-text": "^1.0.0",
