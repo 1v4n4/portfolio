@@ -41,7 +41,7 @@ const Header = () => (
                 PROJECTS
               </motion.h5>
             </Nav.Link>
-            <Nav.Link className="mx-2" href="/blog">
+            {/* <Nav.Link className="mx-2" href="/blog">
               <motion.h5
                 whileHover={{
                   scale: 1.1,
@@ -50,7 +50,7 @@ const Header = () => (
               >
                 BLOG
               </motion.h5>
-            </Nav.Link>
+            </Nav.Link> */}
             <Nav.Link className="mx-2" href="/about">
               <motion.h5
                 whileHover={{
