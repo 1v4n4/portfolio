@@ -1,7 +1,12 @@
 import React from 'react';
-import { FaGithub, FaLinkedin, FaTwitterSquare } from 'react-icons/fa';
+import {
+  FaGithub, FaLinkedin, FaTwitterSquare, FaMastodon,
+} from 'react-icons/fa';
 import { motion } from 'framer-motion';
 import '../CSS/aside.css';
+
+/* eslint-disable react/no-invalid-html-attribute */
+/* eslint-disable react/jsx-no-target-blank */
 
 const Aside = () => (
   <motion.div
@@ -14,6 +19,10 @@ const Aside = () => (
   >
     <a href="https://github.com/1v4n4" className="link-unstyled text-secondary" target="_blank" rel="noreferrer">
       <FaGithub className=" my-1 icons" />
+    </a>
+    <br />
+    <a rel="me" href="https://fosstodon.org/@nosurprises" className="link-unstyled text-secondary" target="_blank">
+      <FaMastodon className=" my-1 icons" />
     </a>
     <br />
     <a href="https://www.linkedin.com/in/1v4n4/" className="link-unstyled text-secondary" target="_blank" rel="noreferrer">
