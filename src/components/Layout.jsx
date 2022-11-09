@@ -6,7 +6,6 @@ import Header from './Header';
 import Footer from './Footer';
 import Projects from './projects/Projects';
 import About from './About';
-import Blog from './Blog';
 import Aside from './Aside';
 import Contact from './contact/Contact';
 
@@ -19,7 +18,6 @@ const Layout = () => (
       <Route path="/home" element={<Home />} />
       <Route path="/about" element={<About />} />
       <Route path="/projects" element={<Projects />} />
-      <Route path="/blog" element={<Blog />} />
       <Route path="/contact" element={<Contact />} />
     </Routes>
     <Footer />
