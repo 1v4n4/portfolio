@@ -3,7 +3,7 @@ import * as ReactDOM from 'react-dom/client';
 import * as Sentry from '@sentry/react';
 import { BrowserTracing } from '@sentry/tracing';
 import './CSS/index.css';
-import Routes from './Routes';
+import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -18,5 +18,5 @@ Sentry.init({
 });
 
 root.render(
-  <Routes />,
+  <App />,
 );
