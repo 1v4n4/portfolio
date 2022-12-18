@@ -15,7 +15,7 @@
     "@sentry/tracing": "^7.27.0",
     "axios": "^1.1.3",
     "bootstrap": "^5.2.2",
-    "framer-motion": "^7.6.5",
+    "framer-motion": "^7.10.2",
     "prop-types": "^15.8.1",
     "react": "18.2.0",
     "react-bootstrap": "^2.6.0",
