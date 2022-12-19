@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@cyriacbr/react-split-text": "^1.0.0",
-    "@emailjs/browser": "^3.9.1",
+    "@emailjs/browser": "^3.10.0",
     "@sentry/react": "^7.27.0",
     "@sentry/tracing": "^7.27.0",
     "axios": "^1.1.3",
