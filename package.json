@@ -37,7 +37,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "watch": "npm run start -- --watch",
-    "npx-fix": "npx eslint src/  --fix"
+    "eslint": "eslint --fix --ext .js,.jsx ."
   },
   "eslintConfig": {
     "extends": [
