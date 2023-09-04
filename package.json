@@ -73,7 +73,7 @@
     "file-loader": "^6.2.0",
     "stylelint": "^15.10.3",
     "stylelint-config-standard": "^29.0.0",
-    "stylelint-csstree-validator": "^2.1.0",
+    "stylelint-csstree-validator": "^3.0.0",
     "stylelint-scss": "^4.3.0"
   }
 }
